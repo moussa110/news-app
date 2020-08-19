@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mahmoud.moussa.newsapp.ui.mainActivity.MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        app:showAsAction="always"
+        android:title="search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item android:id="@+id/action_favorite"
+        app:showAsAction="always"
+        android:title="favorite"
+        android:icon="@drawable/ic_favorite_white_24"/>
+
+    <item android:id="@+id/action_world"
+        app:showAsAction="always"
+        android:title="world"
+        android:enabled="false"
+        android:icon="@drawable/ic_language_black_24dp"/>
+
+    <item
+        android:id="@+id/action_eg"
+        android:title="egypt"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_eg"/>
+
+
+
+
+
+</menu>
